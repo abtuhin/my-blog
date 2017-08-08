@@ -1,0 +1,54 @@
+.intro{
+  margin: auto;
+  display: block;
+  font-weight: bolder;
+}
+
+.well{
+  background: #212121;
+  color: #fff;
+  border: 1px solid #212121;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
+.address{
+  font-size: 14px;
+}
+
+.activeNav{
+  color: #555!important;
+  background: #e7e7e7!important;
+}
+
+.content{
+  background: #F5F5F5;
+  min-height: 500px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.panel{
+  margin: 8px 0;
+}
+
+.project{
+  border: 1px #CFD8DC solid;
+  min-height: 300px;
+  padding: 0px 8px;
+}
+
+.project:hover{
+  cursor: pointer;
+}
+
+.project h3{
+  color: #004D40;
+  font-weight: bolder;
+}
+
+.tech-used span{
+  margin: 0px 1px;
+  position: relative;
+  bottom: 0;
+}
