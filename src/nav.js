@@ -7,7 +7,7 @@ class Nav extends Component{
         <div className="container">
           <div className="row">
             <div className="col-md-4 intro">
-              <img alt="" src="tuhin.jpg" className="img-circle img-responsive" width="220"/>
+              <img alt="" src="tuhin.jpg" className="img-circle img-responsive" width="200"/>
               <h3>Abdullah-Al-Mosabbir</h3>
               </div>
             <div className="col-md-8 address">

@@ -1,64 +1,29 @@
 import React, { Component } from 'react';
-
+import {getData} from './data';
+import Project from './project';
 class Home extends Component{
+  constructor(props){
+    super(props);
+    this.state = {
+      data: getData().project
+    }
+  }
+
   render(){
+    const {data} = this.state;
     return (
       <div className="row">
-
-        <div className="col-md-4">
-            <div className="project">
-              <h3>Project Title</h3>
-              <p>
-                Its a simple periodic table app where one can search atoms based on atomic number,
-                 weight or other properties selected. And by clicking on the particular atom, one
-                 can see the details of the atom.
-              </p>
-              <a className="live-link" href="#">Project Link</a><br/><br/>
-              <div className="tech-used">
-                <span className="label label-danger">CSS</span>
-                <span className="label label-danger">REACT JS</span>
-                <span className="label label-danger">CSS</span>
-                <span className="label label-danger">REACT JS</span>
-                <span className="label label-danger">CSS</span>
-              </div>
-            </div>
-        </div>
-        <div className="col-md-4">
-          <div className="project">
-            <h3>Project Title</h3>
-            <p>
-              Its a simple periodic table app where one can search atoms based on atomic number,
-               weight or other properties selected. And by clicking on the particular atom, one
-               can see the details of the atom.
-            </p>
-            <a className="live-link" href="#">Project Link</a><br/><br/>
-            <div className="tech-used">
-              <span className="label label-danger">CSS</span>
-              <span className="label label-danger">REACT JS</span>
-              <span className="label label-danger">CSS</span>
-              <span className="label label-danger">REACT JS</span>
-              <span className="label label-danger">CSS</span>
-            </div>
-          </div>
-        </div>
-        <div className="col-md-4">
-          <div className="project">
-            <h3>Project Title</h3>
-            <p>
-              Its a simple periodic table app where one can search atoms based on atomic number,
-               weight or other properties selected. And by clicking on the particular atom, one
-               can see the details of the atom.
-            </p>
-            <a className="live-link" href="#">Project Link</a><br/><br/>
-            <div className="tech-used">
-              <span className="label label-danger">CSS</span>
-              <span className="label label-danger">REACT JS</span>
-              <span className="label label-danger">CSS</span>
-              <span className="label label-danger">REACT JS</span>
-              <span className="label label-danger">CSS</span>
-            </div>
-          </div>
-        </div>
+        {
+          data.map((item,i)=>(
+            <Project
+              key={i}
+              title={item.title}
+              description = {item.description}
+              link = {item.link}
+              tech = {item.tech}
+            />
+          ))
+        }
       </div>
     );
   }

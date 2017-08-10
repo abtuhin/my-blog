@@ -1,3 +1,4 @@
+
 .intro{
   margin: auto;
   display: block;
@@ -16,6 +17,10 @@
   font-size: 14px;
 }
 
+.address i{
+  line-height: 3;
+}
+
 .activeNav{
   color: #555!important;
   background: #e7e7e7!important;
@@ -28,21 +33,27 @@
   padding-bottom: 1rem;
 }
 
+.nav{
+  margin-top: 8px;
+}
+
 .panel{
   margin: 8px 0;
 }
 
 .project{
   border: 1px #CFD8DC solid;
-  min-height: 300px;
+  min-height: 250px;
   padding: 0px 8px;
+  margin: 5px 0;
+  background: #F5F5F5;
 }
 
 .project:hover{
   cursor: pointer;
 }
 
-.project h3{
+.project h3, .academic h3{
   color: #004D40;
   font-weight: bolder;
 }
@@ -51,4 +62,15 @@
   margin: 0px 1px;
   position: relative;
   bottom: 0;
+
+}
+
+.academic{
+  margin: 5px 0;
+  background: #F5F5F5;
+  border: 1px #CFD8DC solid;
+}
+
+.academic img{
+  margin: 5px;
 }
