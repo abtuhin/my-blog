@@ -4,13 +4,13 @@ var getData = function(){
       {
         title: 'Chat Application',
         description: 'Simple and lightweight chat room where anyone connect share messages',
-        link: 'http://github.com/abtuhin',
+        link: 'https://github.com/abtuhin/simple-chat-app',
         tech: ['Javascript', 'Bootstrap', 'Socket IO']
       },
       {
         title: 'My Blog',
         description: 'Personal site and blog',
-        link: 'http://github.com/abtuhin',
+        link: 'https://github.com/abtuhin/my-blog',
         tech: ['React JS', 'Bootstrap', 'NodeJS', 'Create react app']
       },
       {
@@ -24,6 +24,12 @@ var getData = function(){
         description: 'Developed, designed and architectred the fronend of the application as an employee at FINDER',
         link: 'http://dev.finder-lbs.com',
         tech: ['React JS', 'Bootstrap', 'NodeJS', 'Webpack2', 'es6']
+      },
+      {
+        title: 'InfancyIt Single Page UI',
+        description: 'Single page ui for company site. This is developed at InfancyIt',
+        link: 'http://infancyit.com/tuhin/infancy/main.php#/',
+        tech: ['Angular JS', 'ui-router']
       }
     ],
     academic: [
@@ -55,6 +61,25 @@ var getData = function(){
         institute: "Jahangirnagar University School & College, Dhaka"
       }
     ],
+    experience: [
+      {
+        image: 'images/ju.jpg',
+        company: 'Finder GPS Tracking Service',
+        position: 'Frontend Developer',
+        from: 'February, 2017',
+        to: 'Present'
+      },
+      {
+        image: 'images/sust.jpg',
+        company: 'InfancyIt',
+        position: 'Frontend Designer & Developer (part-time)',
+        From: 'October, 2015',
+        to: 'October, 2016'
+      }
+    ],
+    achievement: [
+
+    ]
   }
 
 }

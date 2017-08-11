@@ -5,6 +5,7 @@ import Home from './home';
 import Nav from './nav';
 import Sidebar from './sidebar';
 import Academic from './academic';
+import ExperienceAchievementContainer from './experience-achievement-container';
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
@@ -25,6 +26,7 @@ ReactDOM.render((
           <div className="panel-body">
             <Route exact path="/" component={Home}/>
             <Route path="/academic" component={Academic}/>
+            <Route path="/experience" component={ExperienceAchievementContainer}/>
           </div>
         </div>
 

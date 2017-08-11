@@ -11,6 +11,9 @@ class Sidebar extends Component{
         <li role="presentation">
           <NavLink activeClassName="activeNav" to="/academic">Academic</NavLink>
         </li>
+        <li role="presentation">
+          <NavLink activeClassName="activeNav" to="/experience">Experience/Achievement</NavLink>
+        </li>
       </ul>
     );
   }
