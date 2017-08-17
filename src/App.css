@@ -1,4 +1,6 @@
-
+h4{
+  color: #263238;
+}
 .intro{
   margin: auto;
   display: block;
@@ -73,4 +75,27 @@
 
 .academic img{
   margin: 5px;
+}
+
+.page-header h1{
+  margin:0 0.1rem;
+}
+
+.live-link{
+  cursor: pointer;
+}
+
+.skill{
+  padding: 5px;
+  margin: 5px;
+  min-width: 15%;
+}
+
+.tools li p{
+  font-weight: bold;
+  color: #004D40;
+}
+
+.page-header{
+  margin: 1rem 0;
 }

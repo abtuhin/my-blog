@@ -30,6 +30,12 @@ var getData = function(){
         description: 'Single page ui for company site. This is developed at InfancyIt',
         link: 'http://infancyit.com/tuhin/infancy/main.php#/',
         tech: ['Angular JS', 'ui-router']
+      },
+      {
+        title: 'Protidinersylhet',
+        description: 'Online news portal for Sylhet region Bangladesh. This is developed at InfancyIt',
+        link: 'http://www.protidinersylhet.com/',
+        tech: ['Bootstrap', 'Laravel','Jquery']
       }
     ],
     academic: [
@@ -63,22 +69,194 @@ var getData = function(){
     ],
     experience: [
       {
-        image: 'images/ju.jpg',
+        image: 'images/fndr.png',
         company: 'Finder GPS Tracking Service',
         position: 'Frontend Developer',
         from: 'February, 2017',
-        to: 'Present'
+        to: 'Present',
+        facebook:'https://www.facebook.com/finder.vehicle.tracking/'
       },
       {
-        image: 'images/sust.jpg',
+        image: 'images/infancy.png',
         company: 'InfancyIt',
         position: 'Frontend Designer & Developer (part-time)',
-        From: 'October, 2015',
-        to: 'October, 2016'
+        from: 'October, 2015',
+        to: 'October, 2016',
+        facebook: 'https://www.facebook.com/infancyit/'
       }
     ],
-    achievement: [
-
+    skills: [
+      {
+        name: 'Java',
+        level: '6'
+      },
+      {
+        name: 'Javascript',
+        level: '8+'
+      },
+      {
+        name: 'Php',
+        level: '6'
+      },
+      {
+        name: 'React JS',
+        level: '7+'
+      },
+      {
+        name: 'Angular JS',
+        level: '6+'
+      },
+      {
+        name: 'Jquery',
+        level: '6'
+      },
+      {
+        name: 'Bootstrap',
+        level: '8'
+      },
+      {
+        name: 'Semantic UI',
+        level: '8'
+      },
+      {
+        name: 'Material Design',
+        level: '7'
+      },
+      {
+        name: 'MobX',
+        level: '6'
+      },
+      {
+        name: 'ES6',
+        level: '7+'
+      },
+      {
+        name: 'Python',
+        level: '6+'
+      },
+      {
+        name: 'JSON',
+        level: '8'
+      },
+      {
+        name: 'Rest API',
+        level: '7'
+      },
+      {
+        name: 'Node JS',
+        level: '6+'
+      },
+      {
+        name: 'Express',
+        level: '7'
+      },
+      {
+        name: 'Webpack',
+        level: '6'
+      },
+      {
+        name: 'Redux',
+        level: '5'
+      },
+      {
+        name: 'Mongoose',
+        level: '6'
+      },
+      {
+        name: 'Semantic-react',
+        level: '8'
+      },
+      {
+        name: 'Object Oriented Programming',
+        level: '8'
+      },
+      {
+        name: 'Design Pattern',
+        level: '6'
+      },
+      {
+        name: 'Laravel 4.2',
+        level: '5'
+      },
+      {
+        name: 'Graph Api',
+        level: '7'
+      }
+    ],
+    tools: [
+      'Atom Editor',
+      'Visual Studio Code',
+      'Sublime text',
+      'Netbeans',
+      'Eclipse',
+      'Pycharm',
+      'Git',
+      'Heroku',
+      'Slack',
+      'Trello'
+    ],
+    interests: [
+      'Full Stack Wev Development',
+      'Machine Learning',
+      'Object Oriented Programming',
+      'Research Based Programming',
+      'Software Development',
+      'MERN Stack',
+      'Design Pattern Principles',
+      'Interactive User Experience'
+    ],
+    achievements: [
+      {
+        about: 'Undergraduate Thesis',
+        topic: 'Abusive Comment Detecttion in Social Media For Bangla Language',
+        authors: [
+          {
+            name: 'Abdullah-Al-Mosabbir',
+            institute: 'Shahjalal University of Science & Technology, Sylhet',
+            subject: 'Computer Science & Engineering'
+          },
+          {
+            name: 'Md. Sulayman Khan',
+            institute: 'Shahjalal University of Science & Technology, Sylhet',
+            subject: 'Computer Science & Engineering'
+          }
+        ],
+        dataSource: 'Graph api facebook for public celebraty page',
+        classifiers: 'Support Vector Classifier',
+        testModel: [
+          'Support Vector Machine',
+          'Logistic Regression',
+          'Stochastic Gradient Descent',
+          'Naive Bayes',
+          'Decision Trees'
+        ],
+        machineLearning:[
+          'Supervised Learning',
+          'N-gram Counts',
+          'Feature Selection',
+          'Cohen Kappa analysis',
+          'Feature Metrices',
+          'Classify based on data category positive/negative',
+          'Model Selection',
+          '5/10 Fold Cross Validation',
+          'Find Precision, Recall, F-score and Accuracy'
+        ],
+        supervisors: [
+          {
+            name: 'Md. Mahfuzur Rahman',
+            institute: 'Shahjalal University of Science & Technology, Sylhet',
+            post: 'Lecturer',
+            subject: 'Computer Science & Engineering'
+          },
+          {
+            name: 'Sudipta Kar',
+            institute: 'University of Houston, Texas',
+            post: 'Research Assistant',
+            subject: 'Computer Science & Engineering'
+          }
+        ],
+        accuracy: '84%'
+      }
     ]
   }
 
