@@ -5,6 +5,8 @@ import Home from './home';
 import Nav from './nav';
 import Sidebar from './sidebar';
 import Academic from './academic';
+import Others from './others';
+import ContactMe from './contact';
 import ExperienceAchievementContainer from './experience-achievement-container';
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
@@ -27,6 +29,8 @@ ReactDOM.render((
             <Route exact path="/" component={Home}/>
             <Route path="/academic" component={Academic}/>
             <Route path="/experience" component={ExperienceAchievementContainer}/>
+            <Route path="/others" component={Others}/>
+            <Route path="/contact" component={ContactMe}/>
           </div>
         </div>
 

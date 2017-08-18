@@ -222,7 +222,7 @@ var getData = function(){
           }
         ],
         dataSource: 'Graph api facebook for public celebraty page',
-        classifiers: 'Support Vector Classifier',
+        classifiers: ['Support Vector Classifier', 'Decision Tree Classifier'],
         testModel: [
           'Support Vector Machine',
           'Logistic Regression',

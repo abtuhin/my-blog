@@ -9,12 +9,13 @@ class ExperienceAchievementContainer extends Component{
       data: getData().experience,
       skills: getData().skills,
       tools: getData().tools,
-      interests: getData().interests
+      interests: getData().interests,
+      achievements: getData().achievements
     }
   }
 
   render(){
-    const {data, skills, tools, interests} = this.state;
+    const {data, skills, tools, interests, achievements} = this.state;
     return (
       <div>
         <div className="page-header">
@@ -42,7 +43,79 @@ class ExperienceAchievementContainer extends Component{
           <h1>Achievement</h1>
         </div>
         <div className="row" style={{margin:'0.2rem'}}>
-          Achievement will be here
+
+          {
+            achievements.map((item,i) => (
+              <div key={i} className="achievement">
+                <h3>{item.about}</h3>
+                <div className="col-md-6">
+                  <div>
+                    <h5>
+                      <b>Title:</b> {item.topic}
+                      {/*<ul>
+                        {
+                          item.authors.map((author, j) => (
+                            <li key={j}>{author.name}</li>
+                          ))
+                        }
+                      </ul>
+                      */}
+                    </h5>
+                    <h5><b>Data Source:</b> {item.dataSource}</h5>
+                    <h5><b>Classifier Used:</b>
+                      {
+                        item.classifiers.map((classifier, j) => (
+                          <span className="tags" key={j}>
+                            {classifier+", "}
+                          </span>
+                        ))
+                      }
+                    </h5>
+                    <h5><b>ML Technique</b></h5>
+                    <ul>
+                      {
+                        item.machineLearning.map((ml,j) => (
+                          <li key={j}>{ml}</li>
+                        ))
+                      }
+                    </ul>
+                    <h5><b>Models</b></h5>
+                    <ul>
+                      {
+                        item.testModel.map((model,j) => (
+                          <li key={j}>{model}</li>
+                        ))
+                      }
+                    </ul>
+                  </div>
+                </div>
+                <div className="col-md-6">
+                  <h5><b>Authors</b></h5>
+                  <ul>
+                    {
+                      item.authors.map((author,j) => (
+                        <li key={j}>
+                          {author.name}<br/> <i>{author.subject} at {author.institute}</i>
+                        </li>
+                      ))
+                    }
+                  </ul>
+
+                  <h5><b>Supervisors</b></h5>
+                  <ul>
+                    {
+                      item.supervisors.map((author,j) => (
+                        <li key={j}>
+                          {author.name}<br/> <i>{author.post}, {author.subject} at {author.institute}</i>
+                        </li>
+                      ))
+                    }
+                  </ul>
+                </div>
+              </div>
+            ))
+          }
+
         </div>
 
         <br/><br/>

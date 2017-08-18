@@ -99,3 +99,12 @@ h4{
 .page-header{
   margin: 1rem 0;
 }
+
+.tags{
+  margin:4px;
+}
+
+.achievement h3{
+  text-align: center;
+  margin-bottom: 3rem;
+}
