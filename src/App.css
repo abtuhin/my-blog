@@ -1,10 +1,19 @@
+*{
+  font-family: 'Droid Sans', arial, serif;
+}
+
 h4{
   color: #263238;
 }
+textarea { resize: vertical; }
 .intro{
   margin: auto;
   display: block;
   font-weight: bolder;
+}
+
+.page-header h1{
+  color: #d9534f;
 }
 
 .well{

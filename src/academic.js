@@ -13,6 +13,9 @@ class Academic extends Component{
     const {data} = this.state;
     return (
       <div>
+        <div className="page-header">
+          <h1>Academic Information</h1>
+        </div>
         {
           data.map((item,i) => (
             <AcademicItem

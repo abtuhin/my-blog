@@ -12,7 +12,10 @@ class Home extends Component{
   render(){
     const {data} = this.state;
     return (
-      <div className="row">
+      <div>
+        <div className="page-header">
+          <h1>Project Showcasing</h1>
+        </div>
         {
           data.map((item,i)=>(
             <Project
